@@ -1,0 +1,64 @@
+core: 7.x
+api: 2
+projects:
+  # Drupal core
+  drupal:
+    version: ~
+
+  # Install profile
+  luke:
+    type: profile
+    download:
+      type: git
+      url: 'https://github.com/midnightLuke/drupal-install-profile.git'
+
+  # Contrib themes
+  adminimal_theme:
+    subdir: contrib
+    patch:
+      - "https://www.drupal.org/files/issues/adminimal_theme-2763581-4.patch"
+  bootstrap:
+    subdir: contrib
+
+  # Contrib modules
+  admin_menu:
+    subdir: contrib
+  adminimal_admin_menu:
+    subdir: contrib
+  ctools:
+    subdir: contrib
+  ckeditor:
+    subdir: contrib
+  devel:
+    subdir: contrib
+  diff:
+    subdir: contrib
+  elements:
+    subdir: contrib
+  entity:
+    subdir: contrib
+  field_quick_required:
+    subdir: contrib
+  globalredirect:
+    subdir: contrib
+  instantfilter:
+    subdir: contrib
+  jquery_update:
+    subdir: contrib
+  libraries:
+    subdir: contrib
+  pathauto:
+    subdir: contrib
+  redirect:
+    subdir: contrib
+  styleguide:
+    subdir: contrib
+  title:
+    subdir: contrib
+  token:
+    subdir: contrib
+  views:
+    subdir: contrib
+
+  # External libraries
+  libraries: ~
