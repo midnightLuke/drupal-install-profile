@@ -55,16 +55,19 @@ function luke_install() {
     'name' => 'Full HTML',
     'weight' => 1,
     'filters' => array(
+
       // URL filter.
       'filter_url' => array(
         'weight' => 0,
         'status' => 1,
       ),
+
       // Line break filter.
       'filter_autop' => array(
         'weight' => 1,
         'status' => 1,
       ),
+
       // HTML corrector filter.
       'filter_htmlcorrector' => array(
         'weight' => 10,
@@ -141,6 +144,26 @@ function luke_install() {
       'status' => 1,
       'weight' => 0,
       'region' => 'content',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'system',
+      'delta' => 'navigation',
+      'theme'  => 'bootstrap',
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'sidebar_first',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'user',
+      'delta' => 'login',
+      'theme'  => 'bootstrap',
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'sidebar_first',
       'pages' => '',
       'cache' => -1,
     ),
