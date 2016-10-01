@@ -12,6 +12,7 @@ dependencies[] = entity_token
 dependencies[] = field_ui
 dependencies[] = field_quick_required
 dependencies[] = globalredirect
+dependencies[] = image
 dependencies[] = instantfilter
 dependencies[] = jquery_update
 dependencies[] = list
