@@ -21,5 +21,6 @@ dependencies[] = path
 dependencies[] = pathauto
 dependencies[] = redirect
 dependencies[] = styleguide
+dependencies[] = taxonomy
 dependencies[] = title
 dependencies[] = views_ui
