@@ -167,6 +167,16 @@ function luke_install() {
       'pages' => '',
       'cache' => -1,
     ),
+    array(
+      'module' => 'system',
+      'delta' => 'powered-by',
+      'theme' => 'bootstrap',
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'footer',
+      'pages' => '',
+      'cache' => -1,
+    ),
   );
 
   $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
