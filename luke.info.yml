@@ -1,0 +1,41 @@
+name: Luke
+description: Stripped down basic install profile for devs.
+version: 8.x-1.x-dev
+core: 8.x
+
+dependencies:
+  - adminimal_admin_toolbar
+  - automated_cron
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - config
+  - contact
+  - contextual
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - field_ui
+  - file
+  - history
+  - image
+  - list
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - pathauto
+  - quickedit
+  - rdf
+  - redirect
+  - styleguide
+  - taxonomy
+  - views
+  - views_ui
+themes:
+  - bootstrap
+  - adminimal
